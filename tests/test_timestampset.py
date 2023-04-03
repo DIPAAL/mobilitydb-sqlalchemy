@@ -1,6 +1,6 @@
 import datetime
 import pytest
-from pymeos.time import TimestampSet
+from pymeos import TimestampSet
 from sqlalchemy.exc import StatementError
 
 from .models import TimestampSets

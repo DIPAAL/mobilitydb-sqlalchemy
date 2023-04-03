@@ -1,7 +1,7 @@
 import pandas as pd
 
-from pymeos.io import DeserializerBool
-from pymeos.temporal import TBoolInst, TBoolSeq
+from pymeos import DeserializerBool
+from pymeos import TBoolInst, TBoolSeq
 from sqlalchemy.types import UserDefinedType
 
 from .TBaseType import TBaseType

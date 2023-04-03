@@ -1,4 +1,4 @@
-from pymeos.time import TimestampSet as MEOSTimestampSet
+from pymeos import TimestampSet as MEOSTimestampSet
 from sqlalchemy.types import UserDefinedType
 
 from .BaseType import BaseType

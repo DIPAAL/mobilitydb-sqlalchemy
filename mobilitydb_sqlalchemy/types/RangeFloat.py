@@ -1,4 +1,4 @@
-from pymeos.range import RangeFloat as MEOSRangeFloat
+from pymeos import RangeFloat as MEOSRangeFloat
 from sqlalchemy.types import UserDefinedType
 
 from .BaseType import BaseType

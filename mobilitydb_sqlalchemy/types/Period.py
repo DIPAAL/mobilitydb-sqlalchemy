@@ -1,4 +1,4 @@
-from pymeos.time import Period as MEOSPeriod
+from pymeos import Period as MEOSPeriod
 from sqlalchemy.types import UserDefinedType
 
 from .BaseType import BaseType

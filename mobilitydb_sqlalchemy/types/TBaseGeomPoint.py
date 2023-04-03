@@ -2,8 +2,8 @@ import re
 
 import pandas as pd
 from pymeos import GeomPoint
-from pymeos.io import DeserializerGeom
-from pymeos.temporal import TGeomPointInst, TGeomPointSeq
+from pymeos import DeserializerGeom
+from pymeos import TGeomPointInst, TGeomPointSeq
 from shapely.geometry import Point
 from shapely.wkt import loads
 from sqlalchemy import func

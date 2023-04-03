@@ -1,6 +1,6 @@
 import datetime
 import pytest
-from pymeos.time import Period, PeriodSet
+from pymeos import Period, PeriodSet
 from sqlalchemy.exc import StatementError
 
 from .models import PeriodSets

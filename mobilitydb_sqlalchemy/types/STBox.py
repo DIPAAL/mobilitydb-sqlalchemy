@@ -1,4 +1,4 @@
-from pymeos.box import STBox as MEOSSTBox
+from pymeos import STBox as MEOSSTBox
 from sqlalchemy.types import UserDefinedType
 
 from .BaseType import BaseType

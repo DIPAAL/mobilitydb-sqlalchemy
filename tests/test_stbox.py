@@ -1,6 +1,6 @@
 import datetime
 import pytest
-from pymeos.box import STBox
+from pymeos import STBox
 from sqlalchemy.exc import StatementError
 
 from .models import STBoxes

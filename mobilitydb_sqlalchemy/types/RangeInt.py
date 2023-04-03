@@ -1,4 +1,4 @@
-from pymeos.range import RangeInt as MEOSRangeInt
+from pymeos import RangeInt as MEOSRangeInt
 from sqlalchemy.types import UserDefinedType
 
 from .BaseType import BaseType

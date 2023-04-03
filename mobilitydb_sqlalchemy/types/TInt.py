@@ -1,7 +1,7 @@
 import pandas as pd
 
-from pymeos.io import DeserializerInt
-from pymeos.temporal import TIntInst, TIntSeq
+from pymeos import DeserializerInt
+from pymeos import TIntInst, TIntSeq
 from sqlalchemy.types import UserDefinedType
 
 from .TBaseType import TBaseType

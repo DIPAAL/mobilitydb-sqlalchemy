@@ -1,4 +1,4 @@
-from pymeos.box import TBox as MEOSTBox
+from pymeos import TBox as MEOSTBox
 from sqlalchemy.types import UserDefinedType
 
 from .BaseType import BaseType

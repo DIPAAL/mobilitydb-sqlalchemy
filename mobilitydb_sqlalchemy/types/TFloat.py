@@ -1,7 +1,7 @@
 import pandas as pd
 
-from pymeos.io import DeserializerFloat
-from pymeos.temporal import TFloatInst, TFloatSeq
+from pymeos import DeserializerFloat
+from pymeos import TFloatInst, TFloatSeq
 from sqlalchemy.types import UserDefinedType
 from pandas.api.types import is_numeric_dtype
 

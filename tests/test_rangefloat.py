@@ -1,6 +1,6 @@
 import datetime
 import pytest
-from pymeos.range import RangeFloat
+from pymeos import RangeFloat
 from sqlalchemy.exc import StatementError
 
 from .models import RangeFloats
